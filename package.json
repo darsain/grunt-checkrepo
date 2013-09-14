@@ -1,0 +1,44 @@
+{
+	"name": "grunt-checkrepo",
+	"description": "Check the state of repository.",
+	"version": "0.1.0",
+	"homepage": "https://github.com/Darsain/grunt-checkrepo",
+	"author": {
+		"name": "Darsain",
+		"url": "http://darsa.in"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/Darsain/grunt-checkrepo.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Darsain/grunt-checkrepo/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/MIT"
+		}
+	],
+	"main": "Gruntfile.js",
+	"engines": {
+		"node": ">=0.8.0"
+	},
+	"scripts": {
+		"test": "grunt test"
+	},
+	"dependencies": {
+		"shelljs": "~0.2.5",
+		"semver": "~2.1.0"
+	},
+	"devDependencies": {
+		"grunt-contrib-jshint": "~0.6.4",
+		"grunt": "~0.4.1"
+	},
+	"peerDependencies": {
+		"grunt": "~0.4.1"
+	},
+	"keywords": [
+		"gruntplugin"
+	]
+}
