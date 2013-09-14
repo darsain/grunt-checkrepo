@@ -28,6 +28,19 @@ grunt.loadNpmTasks('grunt-checkrepo');
 In your project's Gruntfile, add a section named `checkrepo` to the data object passed into `grunt.initConfig()`. This
 is a multitask task and accepts multiple targets.
 
+```js
+grunt.initConfig({
+	checkrepo: {
+		foo: {
+			// Foo target options
+		},
+		bar: {
+			// Bar target options
+		},
+	},
+});
+```
+
 There are no default options. Each target property is a check that will be run, and its value is a required state.
 
 ## Available checks
