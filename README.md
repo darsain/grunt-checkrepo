@@ -68,7 +68,9 @@ Example:
 ```js
 checkrepo: {
 	foo: {
-		tagged: true,  // Require last commit (HEAD) to be tagged
+		tagged: true, // Require last commit (HEAD) to be tagged
+	},
+	bar: {
 		tagged: false, // Require last commit (head) to not be tagged
 	}
 }
@@ -84,7 +86,9 @@ Example:
 ```js
 checkrepo: {
 	foo: {
-		clean: true,  // Require repo to be clean (no unstaged changes)
+		clean: true, // Require repo to be clean (no unstaged changes)
+	},
+	bar: {
 		clean: false, // Require repo to be dirty (have unstaged changes)
 	}
 }
