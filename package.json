@@ -2,17 +2,17 @@
 	"name": "grunt-checkrepo",
 	"description": "Check the state of repository.",
 	"version": "0.1.0",
-	"homepage": "https://github.com/Darsain/grunt-checkrepo",
+	"homepage": "https://github.com/darsain/grunt-checkrepo",
 	"author": {
 		"name": "Darsain",
 		"url": "http://darsa.in"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/Darsain/grunt-checkrepo.git"
+		"url": "git://github.com/darsain/grunt-checkrepo.git"
 	},
 	"bugs": {
-		"url": "https://github.com/Darsain/grunt-checkrepo/issues"
+		"url": "https://github.com/darsain/grunt-checkrepo/issues"
 	},
 	"licenses": [
 		{
